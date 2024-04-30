@@ -6,7 +6,7 @@ This project is research on employees whom company employed during 1980s and 199
 This project has 3 parts:
 1. Data Modeling - In this part Entity Relationship Diagram is created with QuickDBD.
   
-2. Data Engineering - In this part table schema for each of the six CSV files is created and CSV files info are imported into its corresponding SQL table. 
+2. Data Engineering - In this part table schema for each of the six CSV files is created and CSV files info are imported into its corresponding SQL table. It was checked for each table that data is imported correctly from each corresponding CSV file.
 
 3. Data Analysis. - In this detailed data analysis was done answering eight questions. 
 
