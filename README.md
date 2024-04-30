@@ -8,5 +8,5 @@ This project has 3 parts:
   
 2. Data Engineering - In this part table schema for each of the six CSV files is created and CSV files info are imported into its corresponding SQL table. It was checked for each table that data is imported correctly from each corresponding CSV file.
 
-3. Data Analysis. - In this detailed data analysis was done answering eight questions. 
+3. Data Analysis. - In this part detailed data analysis was done answering eight requested questions. 
 
