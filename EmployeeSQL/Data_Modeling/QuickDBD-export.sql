@@ -12,7 +12,7 @@ CREATE TABLE "departments" (
 
 CREATE TABLE "employees" (
     "emp_no" char(5)   NOT NULL,
-    "emp_title" char(5)   NOT NULL,
+    "emp_title_id" char(5)   NOT NULL,
     "birth_date" date   NOT NULL,
     "first_name" varchar(20)   NOT NULL,
     "last_name" varchat(20)   NOT NULL,
@@ -46,7 +46,7 @@ CREATE TABLE "salaries" (
     "salary" int   NOT NULL
 );
 
-ALTER TABLE "employees" ADD CONSTRAINT "fk_employees_emp_title" FOREIGN KEY("emp_title")
+ALTER TABLE "employees" ADD CONSTRAINT "fk_employees_emp_title_id" FOREIGN KEY("emp_title_id")
 REFERENCES "titles" ("title_id");
 
 ALTER TABLE "dept_menager" ADD CONSTRAINT "fk_dept_menager_dept_no" FOREIGN KEY("dept_no")
